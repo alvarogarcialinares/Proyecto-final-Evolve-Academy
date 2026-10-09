@@ -1,0 +1,54 @@
+# =========================
+# Datos
+# =========================
+
+# Ignorar CSV y Parquet en cualquier subcarpeta de data/
+data/**/*.csv
+data/**/*.parquet
+
+# Mantener la documentación de datos
+!data/README.md
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Cachés y modelos
+# =========================
+.cache/
+huggingface/
+models/
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.log
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+.vscode/
